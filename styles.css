@@ -4,6 +4,9 @@ body {
     padding: 0;
     background-color: #f0f8ff; /* Light blue background */
     color: #333; /* Dark text color */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -29,6 +32,7 @@ nav ul li a {
 }
 
 main {
+    flex: 1;
     padding: 2em;
 }
 
@@ -41,5 +45,8 @@ footer {
     color: white;
     text-align: center;
     padding: 1em 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
-
